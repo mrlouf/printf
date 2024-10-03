@@ -15,8 +15,6 @@
 
 # include <unistd.h>
 # include <stdarg.h>
-# include <stddef.h>
-# include <stdlib.h>
 
 //	FUNCTIONS
 
@@ -26,7 +24,7 @@ int	ft_putchar(int c);
 int	ft_putstr(char *str);
 int	ft_putnbr(int nbr);
 int	ft_putunsigned(unsigned int nbr);
-int	ft_putptr(unsigned int ptr, unsigned int i);
+int	ft_putptr(unsigned long ptr, int i);
 int	ft_puthexa(unsigned int nbr, char x);
 
 #endif
